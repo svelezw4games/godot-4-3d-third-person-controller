@@ -49,7 +49,7 @@ enum WEAPON_TYPE { DEFAULT, GRENADE }
 @onready var _gravity: float = -30.0
 @onready var _ground_height: float = 0.0
 @onready var _start_position := global_transform.origin
-@onready var _coins := 0
+@onready var coins :Summator= Summator.new()
 @onready var _is_on_floor_buffer := false
 
 @onready var _shoot_cooldown_tick := shoot_cooldown
@@ -201,19 +201,19 @@ func reset_position() -> void:
 
 
 func collect_coin() -> void:
-	_coins += 1
-	_ui_coins_container.update_coins_amount(_coins)
+	coins.add(1)
+	_ui_coins_container.update_coins_amount(coins.get_total())
 
 
 func lose_coins() -> void:
-	var lost_coins: int = min(_coins, 5)
-	_coins -= lost_coins
+	var lost_coins: int = min(coins.get_total(), 5)
+	coins.substract(lost_coins)
 	for i in lost_coins:
 		var coin := COIN_SCENE.instantiate()
 		get_parent().add_child(coin)
 		coin.global_position = global_position
 		coin.spawn(1.5)
-	_ui_coins_container.update_coins_amount(_coins)
+	_ui_coins_container.update_coins_amount(coins.get_total())
 
 
 func _get_camera_oriented_input() -> Vector3:

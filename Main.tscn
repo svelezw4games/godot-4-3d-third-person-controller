@@ -47,13 +47,13 @@ noise = SubResource("FastNoiseLite_le7wx")
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ylhgr"]
 render_priority = -1
 shader = ExtResource("8_trepf")
+shader_parameter/main_noise_sampler = SubResource("NoiseTexture2D_71o0d")
+shader_parameter/caustic_sampler = ExtResource("9_8eqnd")
 shader_parameter/water_color = Color(0.133333, 0.490196, 0.823529, 1)
 shader_parameter/water_depth_color = Color(0.164706, 0.537255, 0.901961, 1)
 shader_parameter/water_edge_distance = 0.4
 shader_parameter/water_depth_distance = 8.0
 shader_parameter/water_texture_scale = 40.0
-shader_parameter/main_noise_sampler = SubResource("NoiseTexture2D_71o0d")
-shader_parameter/caustic_sampler = ExtResource("9_8eqnd")
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_eflel"]
 size = Vector2(300, 300)

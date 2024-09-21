@@ -1,7 +1,7 @@
 extends RigidBody3D
 
 const COIN_SCENE := preload("res://Player/Coin/Coin.tscn")
-var sum:Summator=Summator.new()
+const COINS_COUNT := 5
 const DESTROYED_BOX_SCENE := preload("res://Box/DestroyedBox.tscn")
 
 @onready var _destroy_sound: AudioStreamPlayer3D = $DestroySound
@@ -9,8 +9,7 @@ const DESTROYED_BOX_SCENE := preload("res://Box/DestroyedBox.tscn")
 
 
 func damage(_impact_point: Vector3, _force: Vector3):
-	sum.add(10)
-	for i in range(sum.get_total()):
+	for i in range(COINS_COUNT):
 		var coin := COIN_SCENE.instantiate()
 		get_parent().add_child(coin)
 		coin.global_position = global_position
