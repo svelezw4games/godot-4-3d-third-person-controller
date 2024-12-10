@@ -4,11 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://f0vfmhexafmx"
-valid=false
+path="res://.godot/imported/bee_bot.glb-b483cd2c5f5e8b200b27b393ad75c051.scn"
 
 [deps]
 
 source_file="res://Enemies/BeeBot/bee_bot.glb"
+dest_files=["res://.godot/imported/bee_bot.glb-b483cd2c5f5e8b200b27b393ad75c051.scn"]
 
 [params]
 

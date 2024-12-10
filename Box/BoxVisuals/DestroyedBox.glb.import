@@ -4,11 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ciohp0157xfv3"
-valid=false
+path="res://.godot/imported/DestroyedBox.glb-b8c8ecac1aae2fab01445422a4d452cf.scn"
 
 [deps]
 
 source_file="res://Box/BoxVisuals/DestroyedBox.glb"
+dest_files=["res://.godot/imported/DestroyedBox.glb-b8c8ecac1aae2fab01445422a4d452cf.scn"]
 
 [params]
 

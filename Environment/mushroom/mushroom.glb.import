@@ -4,11 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d3jgve1g030hy"
-valid=false
+path="res://.godot/imported/mushroom.glb-d2d5892f58c1ae49db0a671ce4040747.scn"
 
 [deps]
 
 source_file="res://Environment/mushroom/mushroom.glb"
+dest_files=["res://.godot/imported/mushroom.glb-d2d5892f58c1ae49db0a671ce4040747.scn"]
 
 [params]
 

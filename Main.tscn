@@ -115,24 +115,12 @@ material_override = ExtResource("6_q3y6j")
 collision_layer = 3
 collision_mask = 3
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/terrain_main_ground/large_trunk/StaticBody3D" index="0"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
-[node name="CollisionShape3D2" parent="NavigationRegion3D/terrain_main_ground/large_trunk/StaticBody3D" index="1"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
 [node name="large_trunk_001" parent="NavigationRegion3D/terrain_main_ground" index="2"]
 material_override = ExtResource("6_q3y6j")
 
 [node name="StaticBody3D" parent="NavigationRegion3D/terrain_main_ground/large_trunk_001" index="0"]
 collision_layer = 3
 collision_mask = 3
-
-[node name="CollisionShape3D" parent="NavigationRegion3D/terrain_main_ground/large_trunk_001/StaticBody3D" index="0"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
-[node name="CollisionShape3D2" parent="NavigationRegion3D/terrain_main_ground/large_trunk_001/StaticBody3D" index="1"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
 
 [node name="large_trunk_002" parent="NavigationRegion3D/terrain_main_ground" index="3"]
 material_override = ExtResource("6_q3y6j")
@@ -141,24 +129,12 @@ material_override = ExtResource("6_q3y6j")
 collision_layer = 3
 collision_mask = 3
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/terrain_main_ground/large_trunk_002/StaticBody3D" index="0"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
-[node name="CollisionShape3D2" parent="NavigationRegion3D/terrain_main_ground/large_trunk_002/StaticBody3D" index="1"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
 [node name="large_trunk_003" parent="NavigationRegion3D/terrain_main_ground" index="4"]
 material_override = ExtResource("6_q3y6j")
 
 [node name="StaticBody3D" parent="NavigationRegion3D/terrain_main_ground/large_trunk_003" index="0"]
 collision_layer = 3
 collision_mask = 3
-
-[node name="CollisionShape3D" parent="NavigationRegion3D/terrain_main_ground/large_trunk_003/StaticBody3D" index="0"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
-[node name="CollisionShape3D2" parent="NavigationRegion3D/terrain_main_ground/large_trunk_003/StaticBody3D" index="1"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
 
 [node name="terrain" parent="NavigationRegion3D/terrain_main_ground" index="5"]
 material_override = ExtResource("5_xal68")
@@ -167,21 +143,12 @@ material_override = ExtResource("5_xal68")
 collision_layer = 3
 collision_mask = 3
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/terrain_main_ground/terrain/StaticBody3D" index="0"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
 [node name="large_trunk_004" parent="NavigationRegion3D/terrain_main_ground" index="6"]
 material_override = ExtResource("6_q3y6j")
 
 [node name="StaticBody3D" parent="NavigationRegion3D/terrain_main_ground/large_trunk_004" index="0"]
 collision_layer = 3
 collision_mask = 3
-
-[node name="CollisionShape3D" parent="NavigationRegion3D/terrain_main_ground/large_trunk_004/StaticBody3D" index="0"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
-[node name="CollisionShape3D2" parent="NavigationRegion3D/terrain_main_ground/large_trunk_004/StaticBody3D" index="1"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
 
 [node name="large_trunk_005" parent="NavigationRegion3D/terrain_main_ground" index="7"]
 material_override = ExtResource("6_q3y6j")
@@ -190,12 +157,6 @@ material_override = ExtResource("6_q3y6j")
 collision_layer = 3
 collision_mask = 3
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/terrain_main_ground/large_trunk_005/StaticBody3D" index="0"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
-[node name="CollisionShape3D2" parent="NavigationRegion3D/terrain_main_ground/large_trunk_005/StaticBody3D" index="1"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
 [node name="large_trunk_006" parent="NavigationRegion3D/terrain_main_ground" index="8"]
 material_override = ExtResource("6_q3y6j")
 
@@ -203,24 +164,12 @@ material_override = ExtResource("6_q3y6j")
 collision_layer = 3
 collision_mask = 3
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/terrain_main_ground/large_trunk_006/StaticBody3D" index="0"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
-[node name="CollisionShape3D2" parent="NavigationRegion3D/terrain_main_ground/large_trunk_006/StaticBody3D" index="1"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
 [node name="large_trunk_007" parent="NavigationRegion3D/terrain_main_ground" index="9"]
 material_override = ExtResource("6_q3y6j")
 
 [node name="StaticBody3D" parent="NavigationRegion3D/terrain_main_ground/large_trunk_007" index="0"]
 collision_layer = 3
 collision_mask = 3
-
-[node name="CollisionShape3D" parent="NavigationRegion3D/terrain_main_ground/large_trunk_007/StaticBody3D" index="0"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
-
-[node name="CollisionShape3D2" parent="NavigationRegion3D/terrain_main_ground/large_trunk_007/StaticBody3D" index="1"]
-debug_color = Color(0, 0.6, 0.7, 0.42)
 
 [node name="Trees" type="Node3D" parent="NavigationRegion3D"]
 

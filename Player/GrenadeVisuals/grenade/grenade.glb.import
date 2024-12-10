@@ -4,11 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bmg4l7oil4aeu"
-valid=false
+path="res://.godot/imported/grenade.glb-f043f42f6efaffee235dda6174637778.scn"
 
 [deps]
 
 source_file="res://Player/GrenadeVisuals/grenade/grenade.glb"
+dest_files=["res://.godot/imported/grenade.glb-f043f42f6efaffee235dda6174637778.scn"]
 
 [params]
 

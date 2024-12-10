@@ -4,11 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dmeh0no3vldp6"
-valid=false
+path="res://.godot/imported/explosion_smoke.glb-5d36c1c03b12fbf1071eaadecae8fd46.scn"
 
 [deps]
 
 source_file="res://Player/ExplosionVisuals/objects/explosion_smoke.glb"
+dest_files=["res://.godot/imported/explosion_smoke.glb-5d36c1c03b12fbf1071eaadecae8fd46.scn"]
 
 [params]
 

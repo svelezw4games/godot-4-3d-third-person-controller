@@ -4,11 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://n5v4vlr80bj8"
-valid=false
+path="res://.godot/imported/smoke_ball.glb-2002d32b3d30ddcc38486549432127ed.scn"
 
 [deps]
 
 source_file="res://Enemies/smoke_puff/smoke_ball.glb"
+dest_files=["res://.godot/imported/smoke_ball.glb-2002d32b3d30ddcc38486549432127ed.scn"]
 
 [params]
 

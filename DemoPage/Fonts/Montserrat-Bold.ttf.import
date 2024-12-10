@@ -3,11 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://ch2aef1jex81f"
-valid=false
+path="res://.godot/imported/Montserrat-Bold.ttf-257e34a39865240a009b88cdee11a55a.fontdata"
 
 [deps]
 
 source_file="res://DemoPage/Fonts/Montserrat-Bold.ttf"
+dest_files=["res://.godot/imported/Montserrat-Bold.ttf-257e34a39865240a009b88cdee11a55a.fontdata"]
 
 [params]
 

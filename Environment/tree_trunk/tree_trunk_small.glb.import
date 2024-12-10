@@ -4,11 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://drcwbur5pemly"
-valid=false
+path="res://.godot/imported/tree_trunk_small.glb-6a2162b5eaebc7b4d455d1a8eb8c2349.scn"
 
 [deps]
 
 source_file="res://Environment/tree_trunk/tree_trunk_small.glb"
+dest_files=["res://.godot/imported/tree_trunk_small.glb-6a2162b5eaebc7b4d455d1a8eb8c2349.scn"]
 
 [params]
 

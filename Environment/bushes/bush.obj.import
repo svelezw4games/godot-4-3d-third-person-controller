@@ -4,11 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dbvyvmrfv7b41"
-valid=false
+path="res://.godot/imported/bush.obj-6fc986ef449614dd2e250f4ea76be403.mesh"
 
 [deps]
 
+files=["res://.godot/imported/bush.obj-6fc986ef449614dd2e250f4ea76be403.mesh"]
+
 source_file="res://Environment/bushes/bush.obj"
+dest_files=["res://.godot/imported/bush.obj-6fc986ef449614dd2e250f4ea76be403.mesh", "res://.godot/imported/bush.obj-6fc986ef449614dd2e250f4ea76be403.mesh"]
 
 [params]
 
